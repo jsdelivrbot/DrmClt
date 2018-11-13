@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>selflove&idolatry</title>
+
+    <!-- Bootstrap -->
+<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+
+#home:hover
+{
+opacity:0.5;
+filter:alpha(opacity=100); 
+}
+img:hover
+{
+opacity:0.5;
+filter:alpha(opacity=100); 
+}
+</style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+    <div class="jumbotron text-center">
+  <h1 id="home" namestyle="font-family: 'Alegreya', serif;font-size: 99px !important;">These are my body</h1>
+  <p style="font-family: 'Annie Use Your Telescope', cursive;font-size: 20px !important;"><i> When you ate dead flesh you made it alive.<br/>
+     What will happen when you eat living flesh?</i></p> 
+</div>
+  
+<div class="container col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+  <center>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Onirony</h3>
+      <img onclick="okload('dream.html')" style="height:auto;width: 190px;" src="sleep.png"></img>
+    </div>
+    <div class="col-sm-6">
+      <h3>/i/nsurgency</h3>
+      <img onclick="okload('rebl.html')" style="height:auto;width: 200px;" src="fist.png"></img>
+    </div>
+  </div><p/><font color="white">.</font><p/>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Idolatry</h3>
+      <img onclick="okload('gods.html')" style="height:auto;width: 200px;hover{ opacity: 0.5; }" src="candle.png"></img>
+    </div>
+    <div class="col-sm-6">
+      <h3>Love</h3>
+      <img onclick="okload('love.txt')" style="height:auto;width: 190px;" src="heart.png"></img>
+    </div>
+  </div>
+  <div id="content" class="row mt-5">
+dont call comeback, have been here years
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>function okload(filename) { $("#content").load(filename); 
+    $('html, body').animate({
+        scrollTop: $("#content").offset().top
+    }, 2000);
+}</script>
+  </body>
+</html>
